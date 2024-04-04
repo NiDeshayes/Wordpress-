@@ -1,0 +1,4 @@
+2024/02/14 17:45:13 [error] 25656#11876: *9773 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "monsite.local", referrer: "http://monsite.local/wp-admin/post.php?post=37&action=elementor"
+2024/02/14 18:07:07 [alert] 17600#1160: worker process 28224 exited with code C0000142
+2024/02/14 18:07:07 [alert] 17600#1160: could not respawn worker
+2024/02/26 16:39:04 [alert] 15076#18628: OpenEvent("ngx_master_1388") failed (2: The system cannot find the file specified)

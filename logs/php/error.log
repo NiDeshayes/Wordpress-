@@ -1,0 +1,29 @@
+[26-Feb-2024 13:10:13 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[26-Feb-2024 14:02:31 UTC] PHP Warning:  Attempt to read property "presentation" on bool in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 777
+[26-Feb-2024 14:02:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 777
+[26-Feb-2024 14:02:31 UTC] PHP Warning:  Attempt to read property "presentation" on bool in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 778
+[26-Feb-2024 14:02:31 UTC] PHP Warning:  Attempt to read property "meta_description" on null in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 778
+[26-Feb-2024 14:04:44 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[26-Feb-2024 15:09:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Feb-2024 15:30:17 UTC] PHP Fatal error:  Uncaught WCPay\Exceptions\API_Exception: Your site host "monsite.local" is on a private network. Jetpack can only connect to public sites. in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://monsite....')
+#1 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(2008): WC_Payments_API_Client->start_server_connection('http://monsite....')
+#2 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1073): WC_Payments_Account->redirect_to_onboarding_flow_page('wcpay-connect-p...')
+#3 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\dnico\Local Sites\monsite\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+[26-Feb-2024 15:30:31 UTC] PHP Fatal error:  Uncaught WCPay\Exceptions\API_Exception: Your site host "monsite.local" is on a private network. Jetpack can only connect to public sites. in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://monsite....')
+#1 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(2008): WC_Payments_API_Client->start_server_connection('http://monsite....')
+#2 C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1073): WC_Payments_Account->redirect_to_onboarding_flow_page('wcpay-connect-p...')
+#3 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\dnico\Local Sites\monsite\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\dnico\Local Sites\monsite\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\Users\dnico\Local Sites\monsite\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
